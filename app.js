@@ -39,6 +39,7 @@ var createNewTaskElement=function(taskString){
   var deleteButton=document.createElement("button");//delete button
   deleteButton.classList.add("todo-list__button");
   var deleteButtonImg=document.createElement("img");//delete button image
+  deleteButtonImg.alt='remove icon';
 //   deleteButtonImg.classList.add("todo-list__button");
 deleteButtonImg.classList.add("img");
   
@@ -57,6 +58,7 @@ deleteButtonImg.classList.add("img");
 
   deleteButton.className="delete todo-list__button";
   deleteButtonImg.src='./remove.svg';
+  deleteButtonImg.alt='remove icon';
   deleteButton.appendChild(deleteButtonImg);
 
 
