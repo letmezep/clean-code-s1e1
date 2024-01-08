@@ -44,7 +44,7 @@
   list-style:none;
 }
 .todo-list__input, .todo-list__button{
-  outline:none;
+  outline: none;
 }
 .todo-list__button {
   background: none;
@@ -136,14 +136,14 @@
 
 /* Edit Task */
 .tasks-list .tasks-list__item .todo-list__input[type=text] {
-  display:none
+  display: none
 }
 
 .tasks-list .tasks-list__item.edit-mode .todo-list__input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks-list .tasks-list__item.edit-mode .todo-list__label {
-  display:none;
+  display: none;
 }
